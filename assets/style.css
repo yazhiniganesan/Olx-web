@@ -1,0 +1,14 @@
+.header{
+    padding-top: 10px;
+}
+.top-bar-items{
+    display: inline-block;
+    padding: 10px;
+}
+.selectinput{
+    padding: 10px;
+    width: 200px;
+}
+.search{
+    width: 500px;
+}
