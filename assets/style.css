@@ -1,9 +1,16 @@
 .header{
     padding-top: 10px;
 }
+.header-bottom-bar{
+    padding: 20px;
+    padding-left: 80px;
+    box-shadow: 0 1px 1px #000;
+}
 .top-bar-items{
     display: inline-block;
     padding: 10px;
+    padding-top: 2px;
+    padding-top: 2px;
 }
 .selectinput{
     padding: 10px;
@@ -11,4 +18,33 @@
 }
 .search{
     width: 500px;
+}
+.fa-magnifying-glass{
+    background-color: #002f34;
+    color:#fff;
+    padding: 12px;
+    border-radius: 5px;
+}
+/*.sell-button{
+    padding : 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    border-bottom: 3px solid #3a77ff;
+    border-left: 3px solid #ffce32;
+    border-right: 3px solid #23e5db;
+    border-top: 3px solid #3a77ff;
+}*/
+li{
+    display: inline-block;
+     padding-right: 10px;
+     font: size 0.8em;
+}
+li:hover{
+    cursor:pointer;
+    color:#46aca9;
+}
+.txt-bold{font-weight: bold;}
+.myslides{
+    display: none;
+    width:100%;
 }

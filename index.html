@@ -6,6 +6,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script>
+        var myIndex = 0;
+        carousel();
+        
+        function carousel() {
+          var i;
+          var x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(carousel, 2000); // Change image every 2 seconds
+        }
+        </script>
     
 </head>
 <body>
@@ -25,9 +42,38 @@
     </div>
     <div class="top-bar-items">
      <input class="selectinput search" type="search" name="" id="" placeholder="Find Cars, Mobile phones and more...">
-     <i class="fa-solid fa-magnifying-glass"></i>
+     <i class="fa-sharp fa-solid fa-magnifying-glass"></i> 
     </div>
+   
 </div>
+<div class="header-bottom-bar">
+    <div>
+        
+       <ul class="navbar-menu-cat"> 
+        <li class="txt-bold">All Categories<i class="fa-light fa-angle-down"></i></li>
+        <li>Cars</li>
+        <li>Motorcycles</li>
+        <li>Mobile Phones</li>
+        <li>For sale:Houses & Apartments</li>
+        <li>Scooters</li>
+        <li>Commercial & Other Vechicles</li>
+         <li>For rent:Houses & Apartments</li>
+       </ul>
+    </div>
+
+</div>
+<div>
+<div class="myslides" src="" style="width:100%" />
+</div>
+</div>
+<div>
+    <div class="w3-content w3-section" style="max-width:500px">
+        <img class="mySlides" src="img_la.jpg" style="width:100%">
+        <img class="mySlides" src="img_ny.jpg" style="width:100%">
+        <img class="mySlides" src="img_chicago.jpg" style="width:100%">
+      </div>
+</div>
+</body>
    
       
     
